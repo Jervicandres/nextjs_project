@@ -15,10 +15,4 @@ const nextConfig = {
      return config
    }
  }
- 
- module.exports = {
-  experimental: {
-    missingSuspenseWithCSRBailout: false,
-  },
-}
 export default nextConfig
